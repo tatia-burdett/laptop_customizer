@@ -1,5 +1,6 @@
 import React from 'react'
 import Total from '../Total/Total'
+import './Cart.css'
 
 class Cart extends React.Component {
 

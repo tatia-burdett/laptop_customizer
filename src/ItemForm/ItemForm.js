@@ -2,6 +2,7 @@ import React from 'react'
 import slugify from 'slugify';
 import Fieldset from '../Fieldset/Fieldset'
 import Form from '../Form/Form'
+import './ItemForm.css'
 
 class ItemForm extends React.Component {
   render() {
