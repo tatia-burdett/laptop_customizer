@@ -1,5 +1,6 @@
 import React from 'react'
 import slugify from 'slugify';
+import Fieldset from '../Fieldset/Fieldset'
 
 class ItemForm extends React.Component {
   render() {
@@ -7,6 +8,7 @@ class ItemForm extends React.Component {
       const featureHash = feature + '-' + idx;
       const options = this.props.features[feature].map(item => {
         const itemHash = slugify(JSON.stringify(item));
+
         return (
           <div key={itemHash} className="feature__item">
             <input
@@ -25,12 +27,11 @@ class ItemForm extends React.Component {
       });
 
       return (
-        <fieldset className="feature" key={featureHash}>
-          <legend className="feature__name">
-            <h3>{feature}</h3>
-          </legend>
-          {options}
-        </fieldset>
+        <Fieldset 
+          featureHash={featureHash}
+          feature={feature}
+          options={options}
+        />
       );
     });
 
