@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MainSummary from './MainSummary/MainSummary'
-import ItemForm from './ItemForm/ItemForm'
+import MainForm from './MainForm/MainForm'
 
 import './App.css';
 
@@ -92,7 +92,7 @@ class App extends Component {
           <h1>ELF Computing | Laptops</h1>
         </header>
         <main>
-          <ItemForm 
+          <MainForm 
             USCurrencyFormat={USCurrencyFormat}
             features={FEATURES}
             selected={this.state.selected}

@@ -2,9 +2,9 @@ import React from 'react'
 import slugify from 'slugify';
 import Fieldset from '../Fieldset/Fieldset'
 import Form from '../Form/Form'
-import './ItemForm.css'
+import './MainForm.css'
 
-class ItemForm extends React.Component {
+class MainForm extends React.Component {
   render() {
     const features = Object.keys(this.props.features).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
@@ -45,4 +45,4 @@ class ItemForm extends React.Component {
   }
 }
 
-export default ItemForm
+export default MainForm
