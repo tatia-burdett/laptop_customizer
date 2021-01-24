@@ -1,7 +1,7 @@
 import React from 'react'
 import slugify from 'slugify';
 import Fieldset from '../Fieldset/Fieldset'
-import Form from '../Form/Form'
+import Specs from '../Specs/Specs'
 import './MainForm.css'
 
 class MainForm extends React.Component {
@@ -38,7 +38,7 @@ class MainForm extends React.Component {
     });
 
     return (
-      <Form 
+      <Specs 
         features={features}
       />
     )

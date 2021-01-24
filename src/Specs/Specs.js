@@ -1,7 +1,7 @@
 import React from 'react'
-import './Form.css'
+import './Specs.css'
 
-class Form extends React.Component {
+class Specs extends React.Component {
   render() {
     return(
       <form className="main__form"> 
@@ -12,4 +12,4 @@ class Form extends React.Component {
   }
 }
 
-export default Form
+export default Specs
