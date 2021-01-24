@@ -1,4 +1,5 @@
 import React from 'react'
+import './Options.css'
 
 class Options extends React.Component {
   render() {
