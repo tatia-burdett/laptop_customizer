@@ -1,7 +1,7 @@
 import React from 'react'
-import './Fieldset.css'
+import './Parts.css'
 
-class Fieldset extends React.Component {
+class Parts extends React.Component {
   render() {
     return(
       <fieldset className="feature" key={this.props.featureHash}>
@@ -14,4 +14,4 @@ class Fieldset extends React.Component {
   }
 }
 
-export default Fieldset
+export default Parts
