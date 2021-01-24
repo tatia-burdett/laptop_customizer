@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Cart from './Cart/Cart'
+import MainSummary from './MainSummary/MainSummary'
 import ItemForm from './ItemForm/ItemForm'
 
 import './App.css';
@@ -98,7 +98,7 @@ class App extends Component {
             selected={this.state.selected}
             updateFeature={this.updateFeature}
           />
-          <Cart 
+          <MainSummary 
             USCurrencyFormat={USCurrencyFormat}
             selected={this.state.selected}
           />

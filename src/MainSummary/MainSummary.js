@@ -1,9 +1,9 @@
 import React from 'react'
 import Total from '../Total/Total'
-import './Cart.css'
+import './MainSummary.css'
 import Options from '../Options/Options'
 
-class Cart extends React.Component {
+class MainSummary extends React.Component {
 
   render() {
     return (
@@ -22,4 +22,4 @@ class Cart extends React.Component {
   }
 }
 
-export default Cart
+export default MainSummary
